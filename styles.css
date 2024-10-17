@@ -1,0 +1,63 @@
+/* styles.css */
+
+/* Grid Container Styles */
+#grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+/* Each grid container */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, 50px);
+    grid-template-rows: repeat(13, 50px);
+    gap: 5px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+/* Grid cell */
+.grid div {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ddd;
+    font-weight: bold;
+}
+
+/* Letter Bank Styling */
+#letter-bank-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#letter-bank {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.letter-button {
+    padding: 5px 10px;
+    margin: 3px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+}
+
+.letter-button:hover {
+    background-color: #ddd;
+}
+
+.letter-button:disabled {
+    background-color: #e0e0e0;
+    cursor: not-allowed;
+}
