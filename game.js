@@ -1,7 +1,7 @@
 // game.js
 
 // Words to guess (your custom words)
-const wordsToGuess = ["peace", "build", "marry", "dwell", "pride", "class", "false", "rebel"];
+const wordsToGuess = ["pitch", "swing", "tutor", "serve", "piano", "mazda", "sport", "march"];
 let guesses = [];  // Store all guesses
 let currentGuess = "";  // The current guess being entered
 let solvedWords = new Array(8).fill(false); // Track solved words (true if guessed)
